@@ -1,0 +1,25 @@
+
+
+
+
+mettre des bouttons
+
+"""
+for i in range(NB_LINE):
+    for j in range(NB_LINE):
+
+        but = Button(window, text=i, width=5, height=2)
+        #but.grid(row= i, column= j)
+
+        if i % 3 == 0:
+            w = 10
+
+        else:
+            w = 6
+
+        x = TAB_GAP + w + i * COTE_CASE
+        y = TAB_GAP + 6 + j * COTE_CASE
+
+
+        but.place(x=x, y=y)
+"""
